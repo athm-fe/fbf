@@ -7,7 +7,6 @@ const sizeOf = require('image-size');
 const chalk = require('chalk');
 const pkg = require('../package.json');
 
-
 //排序
 const sortByFileName = files =>  {
   const reg = /[0-9]+/g;
