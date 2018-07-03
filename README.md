@@ -17,11 +17,12 @@ fbf start img  # 对 img 目录中的图片进行处理
 ```
 done!
 
-## 生成的代码
+<img src="demo.gif" width="600"  />
 
-fbf.html
+## 生成的同级文件，fbf.html
 
 ```
+
 <!doctype html>
 <html lang="en" dir="rtl">
 <head>
@@ -36,11 +37,11 @@ fbf.html
 <div class="fbf-animation"></div>
       <style>
       .fbf-animation{
-        width: 159px;
-        height: 189px;
+        width: 750px;
+        height: 1334px;
         margin:auto;
-        background-image: url(./img/a1.png);
-        background-size: 159px 189px;
+        background-image: url(./framebyframe/foot00.png);
+        background-size: 750px 1334px;
         background-repeat: no-repeat;
         animation-name: keyframes-img;
         animation-duration: 0.36s;
@@ -52,59 +53,47 @@ fbf.html
       @keyframes keyframes-img {
         
         0% {
-          background:url(./img/a1.png) center center no-repeat;
+          background:url(./framebyframe/foot00.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        10% {
-          background:url(./img/a2.png) center center no-repeat;
+        12% {
+          background:url(./framebyframe/foot01.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        20% {
-          background:url(./img/a3.png) center center no-repeat;
+        24% {
+          background:url(./framebyframe/foot02.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        30% {
-          background:url(./img/a4.png) center center no-repeat;
+        36% {
+          background:url(./framebyframe/foot03.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        40% {
-          background:url(./img/a5.png) center center no-repeat;
-          background-size:100% auto;
-        }
-      
-        50% {
-          background:url(./img/a6.png) center center no-repeat;
+        48% {
+          background:url(./framebyframe/foot04.png) center center no-repeat;
           background-size:100% auto;
         }
       
         60% {
-          background:url(./img/a7.png) center center no-repeat;
+          background:url(./framebyframe/foot05.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        70% {
-          background:url(./img/a8.png) center center no-repeat;
+        72% {
+          background:url(./framebyframe/foot06.png) center center no-repeat;
           background-size:100% auto;
         }
       
-        80% {
-          background:url(./img/a9.png) center center no-repeat;
-          background-size:100% auto;
-        }
-      
-        90%, 100% {
-          background:url(./img/a10.png) center center no-repeat;
+        84%, 100% {
+          background:url(./framebyframe/foot07.png) center center no-repeat;
           background-size:100% auto;
         }
       
       }
     </style>
-    
-
 </body>
 </html>
 
